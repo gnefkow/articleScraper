@@ -3,9 +3,17 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var ArticleSchema = new Schema({
+  category: {
+    type: String,
+    required: false
+  },
   title: {
     type: String,
     required: true
+  },
+  description: {
+    type: String,
+    required: false
   },
   link: {
     type: String,

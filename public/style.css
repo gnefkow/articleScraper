@@ -1,0 +1,32 @@
+body {
+  background-color: #f2f6d0;
+}
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+.articleDiv {
+  padding: 2em;
+}
+
+#notes {
+  float: right;
+  width: 30%;
+}
+.category{
+  font-size: 1em;
+  color: purple;
+}
+
+.articleTitle{
+  font-size: 2em;
+  color: black;
+}
+
+.description {
+  font-size: 1em;
+  color: orange;
+}
