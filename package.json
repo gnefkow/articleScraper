@@ -1,0 +1,21 @@
+{
+  "name": "18_articleScraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "keyword.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnefkow/articleScraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnefkow/articleScraper/issues"
+  },
+  "homepage": "https://github.com/gnefkow/articleScraper#readme"
+}
