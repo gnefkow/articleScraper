@@ -1,12 +1,14 @@
 var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
+require('dotenv').config()
 
 var axios = require("axios");
 var cheerio = require("cheerio");
 
+
 var db = require("./models");
-var PORT = process.env.MONGODB_URI || 3000;
+var PORT = process.env.PORT || 3000;
 var app = express();
 
 
@@ -14,7 +16,7 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-mongoose.connect("mongodb://localhost/econScrape",{useUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/econScrape",{useUrlParser: true });
 
 
 // Routes
