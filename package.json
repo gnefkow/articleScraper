@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/gnefkow/articleScraper/issues"
   },
-  "homepage": "https://github.com/gnefkow/articleScraper#readme"
+  "homepage": "https://github.com/gnefkow/articleScraper#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
